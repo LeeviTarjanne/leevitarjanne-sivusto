@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <!-- utf laittaa ääkköset toimimaan -->
+    <meta charset="UTF-8" />
+    <!-- width=device-width pakottaa sisällön skaalautumaan mobiililla "oikein" -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Leevi Tarjanne – 21-vuotias maastohiihtäjä Espoosta. Maailmancup-hiihtäjän tarina, uutiset ja yhteistyökumppanit."
+    />
+    <title>Leevi Tarjanne – Hiihtäen huipulle</title>
+    <!-- kutsutaan tyylitiedostoa tässä -->
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="sivu1">
+      <header class="navigointipalkki">
+        <nav>
+          <h1>LT</h1>
+          <ul>
+            <li><a href="index.html" class="aktiivinen">KOTI</a></li>
+            <li><a href="toinensivu.html">LEEVI</a></li>
+            <li><a href="uutiset.html">UUTISET</a></li>
+            <li><a href="kumppanit.html">KUMPPANIT</a></li>
+            <li>
+              <a href="https://facebook.com" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="pääsivu">
+          <div class="osa">
+            <h2>HIIHTÄEN HUIPULLE</h2>
+            <p>
+              Olen Leevi Tarjanne, 21-vuotias hiihtäjä Espoosta näyttämässä,
+              kuinka kovalla työllä ja uskolla itseensä mikä tahansa on
+              mahdollista.
+            </p>
+            <a href="toinensivu.html">TARINANI</a>
+          </div>
+        </section>
+
+        <section class="media">
+          <div class="media1">
+            <h4>MEDIA</h4>
+            <p id="kuulumiset">Löydä ajankohtaiset kuulumiseni!</p>
+            <a href="uutiset.html">UUTISET</a>
+          </div>
+          <div class="karuselli">
+            <div class="kortit">
+              <article class="kortti">
+                <img src="images/IMG_4181.jpg" alt="Leevi Tarjanne hiihtämässä maailmancupissa Rukalla" />
+                <p>Millaista on nousta tuntemattomuudesta hiihtokansan huulille?</p>
+              </article>
+
+              <article class="kortti">
+                <img src="images/IMG_3599.jpeg" alt="Leevi Tarjanne maailmancup-debyytissään Rukalla" />
+                <p>Maailmancup-debyytti Rukan yleisömeren edessä</p>
+              </article>
+
+              <article class="kortti">
+                <img src="images/IMG_3955.jpeg" alt="Leevi Tarjanne hymyilee kisapaikalla" />
+                <p>Uran parasta vauhtia aikuisten SM-kisoissa</p>
+              </article>
+            </div>
+            <button class="korttinuoli korttinuoli--prev" aria-label="Edellinen kuva">
+              &#10094;
+            </button>
+            <button class="korttinuoli korttinuoli--next" aria-label="Seuraava kuva">
+              &#10095;
+            </button>
+            <div class="dots"></div>
+          </div>
+        </section>
+
+        <section class="tarinani">
+          <h5>TARINA</h5>
+          <div class="tarinalaatikko">
+            <h6>Potentiaalilla ei ole rajoja</h6>
+            <p>
+              Haluan luoda tasapuolista urheilua kaikille lähtökohdista ja
+              taustasta huolimatta. Hiihto on hieno laji, mutta ilman
+              uudistumista on hiihdon merkitys kansanlajina helposti ohi.
+            </p>
+          </div>
+          <a href="toinensivu.html">MISSIONI</a>
+        </section>
+
+        <!-- INSTAGRAM -->
+        <section class="instagram-osio">
+          <div class="instagram-otsikko">
+            <h3>
+              <i class="fa-brands fa-instagram"></i>
+              SEURAA MATKAANI
+            </h3>
+            <!-- HUOM: vaihda alle oma Instagram-osoitteesi muodossa https://instagram.com/kayttajani -->
+            <a class="instagram-linkki" href="https://instagram.com/leevitarjanne/" target="_blank" rel="noopener">@leevitarjanne</a>
+          </div>
+          <div class="instagram-ruudukko">
+            <!-- Vinkki: voit linkittää jokaisen kuvan suoraan omaan postaukseensa
+                 vaihtamalla href-osoitteeksi postauksen linkin (Jaa → Kopioi linkki) -->
+            <a href="https://www.instagram.com/p/DZScvWKiKFE/?img_index=1" target="_blank" rel="noopener" class="ig-kuva">
+              <img src="images/IMG_5170.jpeg" alt="Instagram-kuva: Leevi kisastadionilla" loading="lazy" />
+              <span class="ig-peite"><i class="fa-brands fa-instagram"></i></span>
+            </a>
+            <a href="https://www.instagram.com/p/DXrvsr7CNTL/?img_index=1" target="_blank" rel="noopener" class="ig-kuva">
+              <img src="images/IMG_4493.jpeg" alt="Instagram-kuva: maailmancup-startti" loading="lazy" />
+              <span class="ig-peite"><i class="fa-brands fa-instagram"></i></span>
+            </a>
+            <a href="https://www.instagram.com/p/DV093KECP2C/?img_index=1" target="_blank" rel="noopener" class="ig-kuva">
+              <img src="images/IMG_4592.jpeg" alt="Instagram-kuva: harjoituslenkillä" loading="lazy" />
+              <span class="ig-peite"><i class="fa-brands fa-instagram"></i></span>
+            </a>
+            <a href="https://www.instagram.com/p/DRy9by6iAJp/?img_index=1" target="_blank" rel="noopener" class="ig-kuva">
+              <img src="images/IMG_0457.jpeg" alt="Instagram-kuva: hymy kisapaikalla" loading="lazy" />
+              <span class="ig-peite"><i class="fa-brands fa-instagram"></i></span>
+            </a>
+            <a href="https://www.instagram.com/p/DNQ44O6ID5d/?img_index=1" target="_blank" rel="noopener" class="ig-kuva">
+              <img src="images/IMG_2504.jpeg" alt="Instagram-kuva: hymy kisapaikalla" loading="lazy" />
+              <span class="ig-peite"><i class="fa-brands fa-instagram"></i></span>
+            </a>
+            <a href="https://www.instagram.com/p/DI48FkOPeGm/?img_index=1" target="_blank" rel="noopener" class="ig-kuva">
+              <img src="images/IMG_2473.jpeg" alt="Instagram-kuva: hymy kisapaikalla" loading="lazy" />
+              <span class="ig-peite"><i class="fa-brands fa-instagram"></i></span>
+            </a>
+          </div>
+        </section>
+
+        <!-- KUMPPANILOGOT -->
+        <section class="logopalkki" aria-label="Yhteistyökumppanit">
+          <!-- Kun saat kumppaneilta logotiedostot, korvaa span-rivi tällä:
+               <a href="https://kumppanin-osoite.fi" class="logo" target="_blank" rel="noopener">
+                 <img src="images/logot/kumppani.png" alt="Kumppanin nimi" />
+               </a> -->
+          <a href="kumppanit.html" class="logo"><span>KALLE SPORT</span></a>
+          <a href="kumppanit.html" class="logo"><span>ROSSIGNOL</span></a>
+          <a href="kumppanit.html" class="logo"><span>REX</span></a>
+          <a href="kumppanit.html" class="logo"><span>GRK</span></a>
+          <a href="kumppanit.html" class="logo"><span>TERVEYSTALO</span></a>
+          <a href="kumppanit.html" class="logo"><span>NORDIC HAND CLINIC</span></a>
+          <a href="kumppanit.html" class="logo"><span>NONAME</span></a>
+        </section>
+      </main>
+
+      <footer class="footer" id="yhteystiedot">
+        <div class="footer-inner">
+          <h2 class="footer-title">YHTEYSTIEDOT</h2>
+
+          <div class="footer-icons">
+            <a href="mailto:tarjanneleevi@gmail.com" class="footer-item">
+              <span class="icon">✉️</span>
+              <span class="text">tarjanneleevi@gmail.com</span>
+            </a>
+            <a href="tel:+358400101222" class="footer-item">
+              <span class="icon">📞</span>
+              <span class="text">+358 40 010 1222</span>
+            </a>
+            <a href="https://instagram.com/leevitarjanne/" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+              <span class="text">@leevitarjanne</span>
+            </a>
+          </div>
+
+          <p class="footer-small">© 2026 Leevi Tarjanne</p>
+        </div>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
